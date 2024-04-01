@@ -1,42 +1,39 @@
 #include <stdio.h>
 #include <string.h>
 
-void masdad() {
-	// - (45) , + (43)
-	char str[50];
-	int num[50] = { 0, };
-	int sign[25];
-
-	scanf_s("%s", str, sizeof(str));
-
-	/*printf("%s ", str);*/  // 1 2 '\0'
-	int j = 0, k = 0 , l = 0;
-	for (int i = 0; i<strlen(str)+1; i++) {
-		/*::1::printf("strlen :%d \n", strlen(str) + 1);*/
-		if (str[i] >= 48 && str[i] <= 57) {
-			num[j] = str[i] - 48;
-			l++;
-		}
-		else {
-			num[j] = l;
-			l = 0;
-			if (str[i] == 45 /* - */) {
-				sign[k] = 1;
-				k++;
-			}
-			else if (str[i] == 43 /* + */) {
-				sign[k] = 2;
-				k++;
-			}
-		}
-		j++;
+void Greedy5() {
+	int N;
+	int A[50] = { 0, };
+	int B[50] = { 0, };
+	int sum = 0;
+	scanf_s("%d", &N); 
+	for (int i = 0; i < N; i++) {
+		scanf_s("%d", &A[i]);
+	}
+	for (int i = 0; i < N; i++) {
+		scanf_s("%d", &B[i]);
 	}
 
-
-
-	int zero = 0;
-	for (int i = 0; num[i] !=0; i++) {
-		printf("%d", num[i]);
+	int min, max; // S의 최솟값은 A와 B 배열의 각각의 최댓값 * 최솟값의 합이다.
+	int index; // 내부 반복문 탈출 후 인덱스 값 접근
+	for (int i = 0; i < N; i++) {		
+		max = -1; min = 101;
+		for (int j = 0; j < N; j++) {
+			if (max < A[j]) {
+				max = A[j];
+				index = j;
+				
+			}
+		}
+		A[index] = -1;
+		for (int j = 0; j < N; j++) {
+			if (min > B[j]) {
+				min = B[j];
+				index = j;
+			}
+		}
+		B[index] = 101;
+		sum += max * min;
 	}
-
-}	
+	printf("%d", sum);
+}

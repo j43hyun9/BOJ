@@ -185,14 +185,14 @@
     <ClCompile Include="Greedy4.c">
       <Filter>소스 파일\Greedy\Silver</Filter>
     </ClCompile>
-    <ClCompile Include="Greedy5.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ArrayList.c">
       <Filter>소스 파일\DataStruct</Filter>
     </ClCompile>
     <ClCompile Include="ListMain.c">
       <Filter>소스 파일\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy5.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

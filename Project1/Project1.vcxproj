@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
     <ClInclude Include="helloWorld.h" />
+    <ClInclude Include="Linked.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alphabet1.c" />
@@ -147,14 +148,22 @@
     <ClCompile Include="Floating_point.c" />
     <ClCompile Include="geometry3.c" />
     <ClCompile Include="geometry4.c" />
+    <ClCompile Include="Greedy0.c" />
+    <ClCompile Include="Greedy11.c" />
     <ClCompile Include="Greedy2.c" />
     <ClCompile Include="Greedy1.c" />
     <ClCompile Include="Greedy3.c" />
     <ClCompile Include="Greedy4.c" />
     <ClCompile Include="Greedy5.c" />
+    <ClCompile Include="Greedy6.c" />
+    <ClCompile Include="Greedy7.c" />
+    <ClCompile Include="Greedy8.c" />
+    <ClCompile Include="Greedy9.c" />
     <ClCompile Include="hanoi.c" />
     <ClCompile Include="Insertion_Sort.c" />
     <ClCompile Include="LinearSearch.c" />
+    <ClCompile Include="LinkedList.c" />
+    <ClCompile Include="LinkedRead.c" />
     <ClCompile Include="ListMain.c" />
     <ClCompile Include="Math1.c" />
     <ClCompile Include="PerfectNumber.c" />

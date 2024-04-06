@@ -43,13 +43,34 @@
     <Filter Include="헤더 파일\DataStruct">
       <UniqueIdentifier>{cec8167d-37af-4237-b16b-af31755318bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Greedy\Bronze">
+      <UniqueIdentifier>{be4e1342-aae5-43cc-bff4-83a59d6b44c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DataStruct\ArrayList">
+      <UniqueIdentifier>{7d0a2def-b8ef-43b8-ab2c-4926de9aa495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DataStruct\LinkedList">
+      <UniqueIdentifier>{079217e2-f018-4fe7-8e3c-6cc0b1dd9c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStruct\ArrayListh">
+      <UniqueIdentifier>{d80b0a76-0b74-4dab-9bc0-7e489ad111b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DataStruct\LinkedListh">
+      <UniqueIdentifier>{e516c0c8-c9d0-4ce9-85a6-94558cdb4a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Greedy\Gold">
+      <UniqueIdentifier>{3f74d437-10c5-494e-a438-db4ea13a6c74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="helloWorld.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="ArrayList.h">
-      <Filter>헤더 파일\DataStruct</Filter>
+      <Filter>헤더 파일\DataStruct\ArrayListh</Filter>
+    </ClInclude>
+    <ClInclude Include="Linked.h">
+      <Filter>헤더 파일\DataStruct\LinkedListh</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -185,14 +206,38 @@
     <ClCompile Include="Greedy4.c">
       <Filter>소스 파일\Greedy\Silver</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayList.c">
-      <Filter>소스 파일\DataStruct</Filter>
-    </ClCompile>
-    <ClCompile Include="ListMain.c">
-      <Filter>소스 파일\DataStruct</Filter>
-    </ClCompile>
     <ClCompile Include="Greedy5.c">
       <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy6.c">
+      <Filter>소스 파일\Greedy\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy7.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList.c">
+      <Filter>소스 파일\DataStruct\ArrayList</Filter>
+    </ClCompile>
+    <ClCompile Include="ListMain.c">
+      <Filter>소스 파일\DataStruct\ArrayList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedRead.c">
+      <Filter>소스 파일\DataStruct\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.c">
+      <Filter>소스 파일\DataStruct\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy8.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy9.c">
+      <Filter>소스 파일\Greedy\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy11.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy0.c">
+      <Filter>소스 파일\Greedy\Gold</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

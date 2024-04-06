@@ -1,17 +1,32 @@
 #include <stdio.h>
 
-void asdsdad() {
-	HanoiTower(2, 'A', 'B', 'C');
+int HanoiTower(int num, char A, char B, char C);
+
+int cnt = 2;
+
+int qweqedadasd() {
+	int N;
+	scanf_s("%d", &N);
+	for (int i = 0; i < N-1; i++) {
+		cnt *= 2;
+	}
+	cnt--;
+	printf("%d", cnt);
+	HanoiTower(N, 'A', 'B', 'C');
+	
+	return 0;
 }
 
 int HanoiTower(int num, char A, char B, char C) {
 	if (num == 1) {
-		printf("\n원반1 을(를) %c에서 %c로 이동", A, C);
+		printf("\n%c %c", A, C);
+		cnt++;
 		return;
 	}
 	else {
 		HanoiTower(num - 1, A, C, B);
-		printf("\n원반%d 를(을) %c에서 %c로 이동", num, A, C);
+		printf("\n%c %c", A, C);
+		cnt++;
 		HanoiTower(num - 1, B, A, C);
 	}
 }

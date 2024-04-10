@@ -154,6 +154,8 @@
     <ClCompile Include="Greedy12.c" />
     <ClCompile Include="Greedy13.c" />
     <ClCompile Include="Greedy14.c" />
+    <ClCompile Include="Greedy15.c" />
+    <ClCompile Include="Greedy16.c" />
     <ClCompile Include="Greedy2.c" />
     <ClCompile Include="Greedy1.c" />
     <ClCompile Include="Greedy3.c" />
@@ -186,6 +188,8 @@
     <ClCompile Include="Runtime4.c" />
     <ClCompile Include="Runtime5.c" />
     <ClCompile Include="Runtime6.c" />
+    <ClCompile Include="Search0.c" />
+    <ClCompile Include="Sort1.c" />
     <ClCompile Include="twoarr.c" />
     <ClCompile Include="palindrome.c" />
     <ClCompile Include="Dot1.c" />

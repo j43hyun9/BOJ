@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\Greedy\Gold">
       <UniqueIdentifier>{3f74d437-10c5-494e-a438-db4ea13a6c74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Search\Silver">
+      <UniqueIdentifier>{25cc5bb1-1f57-4c59-a882-8781df500a7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="helloWorld.h">
@@ -250,6 +253,18 @@
     </ClCompile>
     <ClCompile Include="Greedy14.c">
       <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy15.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Search0.c">
+      <Filter>소스 파일\Search\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort1.c">
+      <Filter>소스 파일\Sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

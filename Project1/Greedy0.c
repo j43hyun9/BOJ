@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int compare(const int* a, const int* b);
+//int compare(const int* a, const int* b);
 int card[100000];
 int N;
 int j;
@@ -59,10 +59,10 @@ int insert(int num) {
 
 	else {
 		card[k - 1] = num;
-		qsort(card, N, sizeof(int), compare);
+		/*qsort(card, N, sizeof(int), compare);*/
 		j++;
 	}
 }
-int compare(const int* a, const int* b) {
-	return (*a - *b);
-}
+//int compare(const int* a, const int* b) {
+//	return (*a - *b);
+//}

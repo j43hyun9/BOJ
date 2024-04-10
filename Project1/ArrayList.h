@@ -1,3 +1,4 @@
+#pragma once
 #ifndef __ARRAY_LIST_H__
 #define __ARRAY_LIST_H__
 

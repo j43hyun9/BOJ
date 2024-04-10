@@ -69,7 +69,7 @@
     <ClInclude Include="ArrayList.h">
       <Filter>헤더 파일\DataStruct\ArrayListh</Filter>
     </ClInclude>
-    <ClInclude Include="Linked.h">
+    <ClInclude Include="DLinkedList.h">
       <Filter>헤더 파일\DataStruct\LinkedListh</Filter>
     </ClInclude>
   </ItemGroup>
@@ -224,7 +224,7 @@
     <ClCompile Include="LinkedRead.c">
       <Filter>소스 파일\DataStruct\LinkedList</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedList.c">
+    <ClCompile Include="DLinkedList.c">
       <Filter>소스 파일\DataStruct\LinkedList</Filter>
     </ClCompile>
     <ClCompile Include="Greedy8.c">
@@ -238,6 +238,18 @@
     </ClCompile>
     <ClCompile Include="Greedy0.c">
       <Filter>소스 파일\Greedy\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedListMain.c">
+      <Filter>소스 파일\DataStruct\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy13.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy12.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy14.c">
+      <Filter>소스 파일\Greedy\Silver</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

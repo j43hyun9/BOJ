@@ -130,8 +130,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="helloWorld.h" />
-    <ClInclude Include="Linked.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alphabet1.c" />
@@ -141,6 +141,7 @@
     <ClCompile Include="Croatia.c" />
     <ClCompile Include="Decimal.c" />
     <ClCompile Include="Decimal1.c" />
+    <ClCompile Include="DLinkedListMain.c" />
     <ClCompile Include="Factor.c" />
     <ClCompile Include="FactorAndMultiple.c" />
     <ClCompile Include="Factorization.c" />
@@ -150,6 +151,9 @@
     <ClCompile Include="geometry4.c" />
     <ClCompile Include="Greedy0.c" />
     <ClCompile Include="Greedy11.c" />
+    <ClCompile Include="Greedy12.c" />
+    <ClCompile Include="Greedy13.c" />
+    <ClCompile Include="Greedy14.c" />
     <ClCompile Include="Greedy2.c" />
     <ClCompile Include="Greedy1.c" />
     <ClCompile Include="Greedy3.c" />
@@ -162,7 +166,7 @@
     <ClCompile Include="hanoi.c" />
     <ClCompile Include="Insertion_Sort.c" />
     <ClCompile Include="LinearSearch.c" />
-    <ClCompile Include="LinkedList.c" />
+    <ClCompile Include="DLinkedList.c" />
     <ClCompile Include="LinkedRead.c" />
     <ClCompile Include="ListMain.c" />
     <ClCompile Include="Math1.c" />

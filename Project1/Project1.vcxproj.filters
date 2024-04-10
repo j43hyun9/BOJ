@@ -266,5 +266,8 @@
     <ClCompile Include="Sort1.c">
       <Filter>소스 파일\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="Element1.c">
+      <Filter>소스 파일\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

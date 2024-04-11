@@ -1,0 +1,54 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+	int C;
+	int PAIR;
+	int network[100] = { 0, };
+	int port = -1;
+	int newuserindex = 0;
+	int infection_computer = 0;
+	scanf("%d", &C);
+	scanf("%d", &PAIR);
+	if (C < 0) {	// 컴퓨터의 수는 100 이하인 양의 정수
+		return 0;
+	}
+	network[0] = port; // 바이러스가 시작된 컴퓨터
+	int tempA, tempB;
+	for (int i = 0; i < PAIR; i++) {
+		scanf("%d %d", &tempA, &tempB);
+		tempA--; /* 각각배열 길이 맞추기*/
+		tempB--;
+		// network[2] && network[3] ?
+		if (network[tempA] != port && network[tempB] != port) {
+			continue;
+		// 두 네트워크의 포트가 할당중 포트와 다르다면
+		}
+		else { // 하나의 네트워크는 기존 포트이다.
+		// 둘다 이미 기존 네트워크에 가입되어 있을 경우 넘어간다
+		if (network[tempA - 1] == port && network[tempB - 1] == port) {
+			continue;
+		}
+		else {
+			//신규 네트워크 사용자에게 포트를 할당해준다.
+			newuserindex = (network[tempA] == port) ? tempB : tempA;
+			network[newuserindex] = port;
+			infection_computer++;
+		}
+	}
+	// 한가지 경우의 수가 남았음.
+	// 둘 다 , 적어도 1명은 네트워크와 현재 port가 다른 경우
+}
+printf("%d", infection_computer);
+
+return 0;
+}
+
+// 다른 사람 풀이
+//1 2
+//2 3
+//1 5
+//5 2
+//5 6
+//4 7
+// 방문 여부는 1차원 배열로 표시한다.

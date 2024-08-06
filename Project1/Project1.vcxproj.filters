@@ -65,4 +65,9 @@
       <UniqueIdentifier>{25cc5bb1-1f57-4c59-a882-8781df500a7e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1436.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

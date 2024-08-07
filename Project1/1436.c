@@ -1,39 +1,21 @@
 #include <stdio.h>
-
+#define RADIX 20
+#define DISASTER_NUMBER 666
 int main() {
 
 	int num = 0;
 	scanf("%d", &num);
-	hx(num);
+	solution(num);
 }
 
-int hx(int num) {
-	int temp = 0;
-	int j = 1;
-	for (int i = 0; i < num; i++) {
-		if (!(j % 16)) {
-			j = 0;
-		}
-		fx(j, &temp);
-		printf("66");
-		gx(j);
-		j++;
-	}
-}
-int fx(int num, int * temp) {
-	if ((*temp) == 0) {
-		(*temp)++;
-		return;
-	} else if (num <= 6 && 0 < num) {
-		printf("%d", *temp);
-		(*temp)++;
-	}
-}
+int solution(int x) {
+	int x_div = x / RADIX; // 체계 내부에서는 "자리 올림수" 의 의미를 갖는다. 
+	int x_mod = x % RADIX;
 
-int gx(int num) {
-	if (num <= 6 && num >= 0)
-		printf("6");
-	else if (num >= 7 && num <= 16) {
-		printf("%d",num - 7);
+	if (0 < x && x < 7) {
+		return (x - 1) * 1000 + DISASTER_NUMBER;
+	}
+	else if (7 <= x && x <= 16) {
+		return ( 10 * DISASTER_NUMBER) + (x - 7);
 	}
 }
